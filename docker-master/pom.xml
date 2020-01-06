@@ -98,7 +98,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>docker_learn/${project.artifactId}</repository>
+					<repository>myfirst_image/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
